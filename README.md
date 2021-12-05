@@ -4,6 +4,10 @@
 This is video chatting web application
 (Still under development)
 
+#### Vividly is developed on MERN stack
+
+#### This repository is new version of vividly-old (https://github.com/jaimin001/vividly-old) where `Django` + `SQLite` backend was used.
+
 ## 🛠 Techonologies Used in the Making
 
 ### Front-end 
