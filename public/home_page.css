@@ -1,0 +1,95 @@
+body{
+    background-color: #3f37c9;
+}
+
+h1, p{
+    color: white;
+}
+
+button{
+    padding: 10px;
+}
+
+.container{
+    margin: 0 100px;
+}
+
+.signup-buttons{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: white;
+    font-family: 'Patua One', cursive;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.navbar-left{
+    float: left;
+}
+
+.navbar-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+#v-logo{
+    padding-left: 10px;
+}
+
+#logo-vividly-text{
+    padding-left: 10px;
+}
+
+.navbar-headers{
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+.su-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-signup{
+    padding-right: 50px;
+    text-align: center;
+}
+
+.homepage-signup h1{
+    margin: 1px;
+}
+
+.main-vividly{
+    font-size: 100px;
+    font-family: 'Comforter Brush', cursive;
+}
+
+.main-para{
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 0;
+}
+
+.signup-buttons span{
+    margin: 10px;
+}
+
+.vector-image{
+    height: 300px;
+}
+
+.google-logo{
+    display: flex;
+}
+
