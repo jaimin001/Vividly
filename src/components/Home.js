@@ -2,18 +2,7 @@ import React from 'react'
 
 export default function Home(props) {
     return (
-        <>
-        <div class="navbar">
-            <nav class="navbar-left">
-                <h1 class="navbar-headers" id="logo-vividly-text">Vividly</h1>
-            </nav>
-            <nav class="navbar-right">
-                <h1 class="navbar-headers">Log Out</h1>
-            </nav>
-            <div class="clear"></div>
-        </div>
-        <div className="dashboard">
-            
+        <>            
             <section style={{display: "flex"}}>
                 <h1>Hello, {props.name}</h1>
                 <div style={{display: "flex", alignItems: "center", justifyContent: "right"}}>
@@ -48,8 +37,8 @@ export default function Home(props) {
                 
             </section>
             
-            
-        </div>
         </>
     )
 }
+
+

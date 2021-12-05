@@ -1,0 +1,48 @@
+.landing-page::after{
+    clear: both;
+}
+
+.left{
+    color: #fff;
+    background-color: rgb(64, 54, 150);
+    width: 45%;
+    height: 100vh;
+    float: left;
+}
+
+.right{
+    width: 55%;
+    background-color: rgb(64, 54, 150);
+    height: 100vh;
+    float: right;
+}
+
+.left-side{
+    margin-top: 25%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.google-button{
+    margin-left: 30%;
+}
+
+.main-vividly{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.main-para{
+    font-family: 'Patua One', cursive;
+    font-size: 30px;
+}
+
+.vector-image{
+    margin-top: 10%;
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
