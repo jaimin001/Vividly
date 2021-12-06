@@ -1,17 +1,17 @@
 .NavbarItems{
-    background: linear-gradient(90deg, rgb(110, 94, 252, 1), rgba(73, 63, 252, 1) 100%);
+    background-color: rgb(200, 255, 0);
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Navbar-logo{
-    font-size: 50px;
-    color: black;
+.vividly-logo{
+    height: 90%;
+    width: 100px;
     justify-self: start;
     margin-left: 20px;
-    cursor: pointer;
+    border-radius: 50%;
 }
 
 .nav-menu{

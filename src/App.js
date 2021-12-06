@@ -1,12 +1,13 @@
 import './App.css';
-import MainFG from './components/Landing/MainFG';
-import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+// import MainFG from './components/Landing/MainFG';
+// import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <MainFG/>
+      {/* <MainFG/> */}
+      <Home userName="Jaimin Gajjar" img="boy-pfp.jpg"/>
     </>
     
   );
