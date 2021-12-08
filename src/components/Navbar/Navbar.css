@@ -1,17 +1,25 @@
 .NavbarItems{
-    background-color: rgb(200, 255, 0);
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .vividly-logo{
-    height: 90%;
-    width: 100px;
-    justify-self: start;
-    margin-left: 20px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    height: 100px;
     border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 6px 5px #ccc;
+    transition: box-shadow 0.5s;
+}
+
+.vividly-logo:hover{
+    box-shadow: 10px 10px 10px black;
 }
 
 .nav-menu{
@@ -20,13 +28,13 @@
     grid-gap: 50px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 100vw;
     justify-content: end;
     margin-right: 30px;
 }
 
 .nav-links{
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
 }
 
@@ -38,7 +46,7 @@
     cursor: pointer;
     position: relative;
     padding: 10px 20px;
-    background: rgb(99, 10, 216);
+    background: yellow;
     font-size: 28px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -77,6 +85,20 @@
 @media screen and (max-width: 960px) {
     .NavbarItems{
         position: relative;
+    }
+
+    .vividly-logo-mid{
+        height: 100px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 6px 5px #ccc;
+        transition: box-shadow 0.5s;
+        animation-name: slide;
+        animation-iteration-count: infinite;
+    }
+    
+    .vividly-logo-mid:hover{
+        box-shadow: 10px 10px 10px black;
     }
 
     .nav-menu{

@@ -11,8 +11,7 @@ export default function Navbar() {
 
     return (
         <nav className="NavbarItems">
-            {/* <h1 className="Navbar-logo">Vividly</h1> */}
-            <img src="main-logo.png" alt="logo" className="vividly-logo"/>
+            <img src="main-logo.png" alt="logo" className={clicked ? "vividly-logo-mid" : "vividly-logo"}/>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
